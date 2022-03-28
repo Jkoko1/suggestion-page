@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' sans-serif;
+}
+
+body{
+    background-color: aqua;
+    height: 100vh;
+    margin: 20px 50px;
+}
+
+.suggestion{
+    /* background-color: blueviolet; */
+    display: grid;
+    height: 100%;
+    grid-template-areas: 'first second';
+    grid-template-columns: 30% 70%;
+    column-gap: 20px;
+}
+
+.first{
+    grid-area: first;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    flex-wrap: wrap;
+}
+
+.top1{
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.mid1{
+    background-color: brown;
+    border-radius: 10px;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.end1{
+    background-color: brown;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.second{
+    grid-area: second;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.top2{
+    background-color: blue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.sug1, .sug2, .sug3, .sug4, .sug5, .sug6{
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 10px 0;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    padding: 10px;
+}
+
+/* .tags{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+} */
